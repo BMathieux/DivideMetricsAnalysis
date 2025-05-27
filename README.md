@@ -4,7 +4,7 @@ Repository associated with "Drainage divide migration in a low-deformation setti
 
 ## Overview 
 
-The Divide Metrics Analysis toolkit processes DEMs to extract and analyze metrics for basins on either side of a drainage divide. It supports both automated and interactive workflows, allowing users to delineate basins, compute topographic and fluvial metrics, and select thresholds (e.g., reference drainage area for basin extraction) and divide via graphical interfaces. The toolkit is built around a modular set of MATLAB functions, leveraging the TopoToolbox library for robust geospatial processing of DEMs, flow routing, and divide network analysis.
+The Divide Metrics Analysis toolkit processes DEMs to extract and analyze metrics for basins on either side of a drainage divide. It supports both automated and interactive workflows, allowing users to delineate basins, compute topographic and fluvial metrics, and select thresholds (i.e., reference drainage area for basin extraction or window length for hilltop curvature measurement) via graphical interfaces. The toolkit is built around a modular set of MATLAB functions, leveraging the TopoToolbox library for robust geospatial processing of DEMs, flow routing, and divide network analysis.
 
 ## Structure
 
@@ -23,9 +23,10 @@ Note: For now, the toolkit is not compatible with Topotoolbox v3.
 ## How to run the Code
 
 1. Update parameters in DefineParams.m (see the H1 comment for details).
-2. Follow the prompts for updating DEMs file paths, selecting interactively or not the reference drainage area for basin extraction and run or not hilltop curvature measurements with the extrapolation of associated metrics (i.e., denudation rates and divide migration rates) 
-3. Navigate to the Main folder in MATLAB and run `RunDivideAnalysis.m`
-4. The results will be saved as csv files.
+2. Navigate to the Main folder in MATLAB and open `RunDivideAnalysis.m`
+3. Follow the prompts for updating DEMs file paths, selecting interactively or not the reference drainage area for basin extraction and run or not hilltop curvature measurements with the extrapolation of associated metrics (i.e., denudation rates and divide migration rates)
+4. Run `RunDivideAnalysis.m`
+5. The results will be saved as csv files.
 
 ## Contact
 
