@@ -30,6 +30,6 @@ Note: For now, the toolkit is not compatible with Topotoolbox v3.
 
 ## Contact
 
-For questions, contact b.mathieux@unistra.fr or open an issue on GitHub. 
+For questions, contact b.mathieux@gmail.com or open an issue on GitHub. 
 
 Bastien Mathieux - University of Strasbourg
