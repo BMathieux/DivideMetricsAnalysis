@@ -11,7 +11,7 @@ function HMetrics = CHt_metrics(BData, DEM1, params, varargin)
     %   varargin - Optional settings: 'Verbose' (true), 'UseParallel' (false).
     %
     % Outputs:
-    %   HMetrics - Cell array of hillslope metrics (NaN if runCHt is false).
+    %   HMetrics - Cell array of hilltop metrics (NaN if runCHt is false).
 
     % --- Parse Inputs ---
     p = inputParser;
