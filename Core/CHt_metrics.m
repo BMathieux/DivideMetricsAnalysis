@@ -28,7 +28,7 @@ function HMetrics = CHt_metrics(BData, DEM1, params, varargin)
 
     HMetrics = cell(numel(BData.DEMi), 1);
     if verbose
-        PB = ProgressBar(numel(BData.DEMi)+1, 'taskname', 'Extract hillslope metrics...', 'ui', 'cli');
+        PB = ProgressBar(numel(BData.DEMi)+1, 'taskname', 'Extract hilltop metrics...', 'ui', 'cli');
         count(PB);
     end
 
