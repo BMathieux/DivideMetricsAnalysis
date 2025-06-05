@@ -8,7 +8,7 @@ The Divide Metrics Analysis toolkit processes DEMs to extract and analyze metric
 
 ## Structure
 
-The main folder contains the entry point script `RunDivideAnalysis.m` to execute the entire workflow and `DefineParams.m` for parameters definitions. `Helpers` includes utility functions for progress display and user-assisted thresholds selection with graphical interfaces (`ProgressBar.m`,`SelectDivide.m`, `SelectWs.m`). `Core` houses the core analysis functions (`Cht_metrics.m`, `CalcDivideTable.m`, `extractBasins.m`) that perform the main computations.
+The main folder contains the entry point script `RunDivideAnalysis.m` to execute the entire workflow and `DefineParams.m` for parameters definitions. `Helpers` includes utility functions for hilltop curvature measurements, progress display and user-assisted thresholds selection with graphical interfaces (`extract_CHt.m`,`ProgressBar.m`,`SelectDivide.m`, `SelectWs.m`). `Core` houses the core analysis functions (`Cht_metrics.m`, `CalcDivideTable.m`, `extractBasins.m`) that perform the main computations.
 
 ## Installation
 
