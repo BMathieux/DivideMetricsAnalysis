@@ -1,6 +1,5 @@
 function HMetrics = CHt_metrics(BData, DEM1, params, varargin)
-    % Calculate hillslope metrics (gradient, curvature) for basins.
-    % This function computes hillslope metrics for each basin defined in BData
+    % This function computes hilltop metrics for each basin defined in BData
     % using high-resolution and resampled DEMs. Curvature calculations are performed
     % only if runCHt is true. Parallelization is handled internally by the extract_CHt
     % function when useParallel is true.
