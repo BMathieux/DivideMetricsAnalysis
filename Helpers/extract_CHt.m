@@ -310,8 +310,9 @@ function OUT = computeCurvature(DEM1, ws, Gth, xd, yd, lSHt, lRHt, lLHt, lxHt, l
         lxHt_all = nan(1, numel(ws)); lyHt_all = nan(1, numel(ws));
 
         for i2 = 1:numel(ws)
-            wsi = round(ws(i2)) / cs;
-            [nmat, X2, Y2, X, Y, weight] = makenormeqn(wsi * 2 + 1, cs);
+            wsi = round(ws(i2) / cs);
+            wsi = wsi + mod(wsi+1,2); % forces to next odd integer if even
+            [nmat, X2, Y2, X, Y, weight] = makenormeqn(wsi, cs);
 
             xi = xd(i); yi = yd(i);
             [xi, yi] = coord2sub(DEM1, xi, yi);
