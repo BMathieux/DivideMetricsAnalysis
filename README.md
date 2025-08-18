@@ -1,6 +1,6 @@
 # DivideMetricsAnalysis
 
-Repository associated with "Drainage divide migration in a low-deformation setting: Insights from morphometry, hilltop curvature and cosmogenic nuclides" submitted to EPSL. 
+Repository associated with "Drainage divide migration modulated by erosion-driven landscape adjustment in a low-deformation setting" submitted to EPSL. 
 
 ## Overview 
 
