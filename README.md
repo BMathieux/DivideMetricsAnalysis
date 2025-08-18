@@ -20,6 +20,13 @@ The main folder contains the entry point script `RunDivideAnalysis.m` to execute
    
 Note: For now, the toolkit is not compatible with Topotoolbox v3.
 
+## Test DEM files
+
+A set of DEM files for testing the toolbox is available from the University of Strasbourg Seafile server:
+https://seafile.unistra.fr/d/f0b552a9946a4c5d9b3b/
+
+Download these files and update the file paths in DefineParams.m before running the examples.
+
 ## How to run the Code
 
 1. Update parameters in DefineParams.m (see the H1 comment for details).
