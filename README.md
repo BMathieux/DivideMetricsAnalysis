@@ -1,6 +1,6 @@
 # DivideMetricsAnalysis
 
-Repository associated with "Drainage divide migration modulated by erosion-driven landscape adjustment in a low-deformation setting" submitted to EPSL. 
+Repository associated with "Drainage divide dynamics modulated by erosion-driven landscape adjustment in a low-deformation setting" submitted to EPSL. 
 
 ## Overview 
 
