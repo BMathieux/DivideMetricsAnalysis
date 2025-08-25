@@ -18,7 +18,7 @@
 % 7. Save tables as .csv
 %
 % Date: May 11, 2025
-% Author: Bastien Mathieux (bastien.mathieux[at]gmail.com
+% Author: Bastien Mathieux (bastien.mathieux[at]gmail.com)
 
 
 % Interactive options (true for interactive selection, false for default values set in DefineParams.m)
@@ -70,4 +70,5 @@ fprintf('Computing cross-divide metrics...\n');
 %% Step 5: Display and save the results
 disp('Analysis complete.');
 writetable(DTable, 'DTable.csv');
+
 writetable(MTable, 'MTable.csv');
