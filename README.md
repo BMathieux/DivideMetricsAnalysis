@@ -23,7 +23,7 @@ Note: For now, the toolkit is not compatible with Topotoolbox v3.
 ## Test DEM files
 
 A set of DEM files for testing the toolbox is available from the University of Strasbourg Seafile server:
-https://seafile.unistra.fr/d/f0b552a9946a4c5d9b3b/
+[https://seafile.unistra.fr/d/f0b552a9946a4c5d9b3b/](https://seafile.unistra.fr/d/fa7b4a2895a94ce88918/)
 
 Download these files and update the file paths in DefineParams.m before running the examples.
 
