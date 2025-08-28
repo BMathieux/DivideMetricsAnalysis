@@ -37,6 +37,6 @@ Download these files and update the file paths in DefineParams.m before running 
 
 ## Contact
 
-For questions, contact b.mathieux@gmail.com or open an issue on GitHub. 
+For questions, contact bastien.mathieux@gmail.com or open an issue on GitHub. 
 
 Bastien Mathieux - University of Strasbourg
